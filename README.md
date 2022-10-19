@@ -1,3 +1,16 @@
 # Loan-Prediction
 
-To predict the impact of the incident raised by the customer. It’s not at all easy to get a loan from the bank. Getting a loan approved requires a complex mix of factors not the least of which is a steady income! So this ML project aims to create a model that will classify how much loan the user can obtain based on various factors such as the user’s marital status, income, education, employment prospects, number of dependents, etc.
+To predict and classify whether the customer is eligible to
+obtain the loan or not based on the various factors about the
+customer. (The whole project is done using Python Language)
+• Exploratory Data Analysis(EDA) to understand, clean and
+prepare our data for building model which involved steps like
+Variable identification , uni and bi-variate analysis , Missing
+values treatment, Outliers treatment, Variable Tranformation
+and Variable Creation.
+• After EDA, Logistic Regression, Decision tree, KNN, SVM,
+Naive Bayes, Random forest, Extra tree classifier, XGBM
+models were built and based on accuracy, Precision, recall,
+F1_score. An Ensemble Model was created combining KNN,
+SVM, Extra tree classifier and XGBM for best results.
+• The project was deployed using Streamlit.
